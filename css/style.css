@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*COLOR DE FONDO DE LAS PAGINAS*/
+body {
+    background-color: lightyellow;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    margin: 10px;
+    background-color: grey;
+    gap: 10px;
+
+}
+
+
+
+
+.menu ul {
+
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    font-size: 16px;
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+
+
+
+}
+
+.menu ul li {
+
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.menu ul li:hover {
+
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: black;
+}
+
+/*HASTSA ACA VA LA BOTONERA*/
+
+.seccion1 {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    margin: 10px;
+
+    background-color: grey;
+    gap: 10px;
+}
+
+.parrafo_masInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.parrafo_masInfo p {
+    padding: 50px;
+
+
+}
+
+.parrafo_masInfo a {
+    text-decoration: none;
+    color: black;
+    background-color: burlywood;
+    border-radius: 30px;
+
+}
+
+
+.contendor_Destino_Estaciones {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.contendor_Destino_Estaciones h2 {
+
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+.titulo_a {
+    font-family: 'EB Garamond', serif;
+
+
+
+}
+
+
+.titulo_b {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Rubik Pixels', cursive;
+
+}
+
+.contedor_img_destinos {
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+    margin-left: 120px;
+    width: 1000px;
+
+}
+
+
+/*los enlances de google fonts van solo en la pagina.html que se utiliza la letra o en todos las paginas.html??????*/
+
+

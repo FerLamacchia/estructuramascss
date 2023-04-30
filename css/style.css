@@ -66,6 +66,7 @@ body {
     flex-direction: row;
     text-align: right;
     margin: 10px;
+    padding-bottom: 20px;
 
     background-color: grey;
     gap: 10px;
@@ -90,7 +91,15 @@ body {
     color: black;
     background-color: burlywood;
     border-radius: 30px;
+    width: 100px;
+    margin-left: 320px;
 
+
+}
+
+.parrafo_masInfo h2 {
+
+    padding-top: 25px;
 }
 
 
@@ -136,6 +145,33 @@ body {
 }
 
 
-/*los enlances de google fonts van solo en la pagina.html que se utiliza la letra o en todos las paginas.html??????*/
 
 
+
+.seccion2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.letra1 {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Ysabeau', sans-serif;
+
+
+}
+
+.tablaPaquetes {
+    border: rgb(145, 50, 50) 5px solid;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion3 {
+    padding-top: 100px;
+    text-align: center;
+}
